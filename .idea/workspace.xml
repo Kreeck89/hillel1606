@@ -49,8 +49,8 @@
       <change afterPath="$PROJECT_DIR$/../taco-cloud/src/main/java/tacos/Order.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../taco-cloud/src/main/java/tacos/web/DesignTacoController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../taco-cloud/src/main/java/tacos/web/WebConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/lesson3/MethodCreateExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/lesson3/MethodCreateExample.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -88,11 +88,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+            <state relative-caret-position="1092">
+              <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#569#570#0" expanded="true" />
@@ -141,13 +141,12 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/MethodCreateExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
+            <state relative-caret-position="296">
+              <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
               <folding>
-                <element signature="e#156#157#0" expanded="true" />
                 <element signature="e#372#373#0" expanded="true" />
                 <element signature="e#412#413#0" expanded="true" />
                 <element signature="e#464#465#0" expanded="true" />
@@ -204,10 +203,10 @@
         <option value="$PROJECT_DIR$/src/main/java/lesson1/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson1/HomeTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson2/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/lesson3/MethodCreateExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson3/Calculate.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson3/User.java" />
         <option value="$PROJECT_DIR$/src/main/java/lesson3/Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/lesson3/MethodCreateExample.java" />
       </list>
     </option>
   </component>
@@ -358,12 +357,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1592328370647</updated>
-      <workItem from="1592328375107" duration="22896000" />
+      <workItem from="1592328375107" duration="23860000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22896000" />
+    <option name="totallyTimeSpent" value="23860000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -389,7 +388,7 @@
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24964234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="DB Execution Console" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32961586" />
+      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32961586" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Messages" weight="0.3283767" />
       <window_info anchor="bottom" id="Database Changes" />
@@ -398,7 +397,7 @@
       <window_info anchor="bottom" id="Console" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.35811648" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.35811648" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39900866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -446,20 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
           <caret line="121" column="41" selection-start-line="121" selection-start-column="41" selection-end-line="121" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/MethodCreateExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-          <folding>
-            <element signature="e#156#157#0" expanded="true" />
-            <element signature="e#372#373#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
-            <element signature="e#464#465#0" expanded="true" />
-            <element signature="e#519#520#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -515,12 +500,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="70" column="29" selection-start-line="70" selection-start-column="29" selection-end-line="70" selection-end-column="29" />
+        <state relative-caret-position="1092">
+          <caret line="82" column="52" selection-start-line="82" selection-start-column="52" selection-end-line="82" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#569#570#0" expanded="true" />
             <element signature="e#605#606#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/lesson3/MethodCreateExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="296">
+          <caret line="26" column="33" selection-start-line="26" selection-start-column="33" selection-end-line="26" selection-end-column="33" />
+          <folding>
+            <element signature="e#372#373#0" expanded="true" />
+            <element signature="e#412#413#0" expanded="true" />
+            <element signature="e#464#465#0" expanded="true" />
+            <element signature="e#519#520#0" expanded="true" />
           </folding>
         </state>
       </provider>

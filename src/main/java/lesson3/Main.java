@@ -5,42 +5,42 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-//        MethodCreateExample.calcSum(10, 20);
-//
-//        int first = 5;
-//        MethodCreateExample methodCreateExample = new MethodCreateExample();
-//        double result = methodCreateExample.calcDiff(14.2, 2.67);
-//        System.out.println("calcDiff result: " + result);
-//
-//        methodCreateExample.printText();
-//        methodCreateExample.printText();
-//        methodCreateExample.printText();
-//        methodCreateExample.printText();
-//
-//        printFromMain("Call from main method!");
-//
-//        methodCreateExample.exampleMethod("sd", 23, "str", 'c');
-//
-//        //Перегрузка методов
-//        Calculate calculate = new Calculate();
-//        calculate.sum(2, 5);
+        MethodCreateExample.calcSum(10, 20); // Пример вызова статического метода другого класса с параметрами
 
+        int first = 5;
+        MethodCreateExample methodCreateExample = new MethodCreateExample();
+        double result = methodCreateExample.calcDiff(14.2, 2.67); // Пример вызова не статического метода другого класса с параметрами
+        System.out.println("calcDiff result: " + result);
 
+        methodCreateExample.printText(); // Пример вызова не статического метода другого класса без параметров
+        methodCreateExample.printText();
+        methodCreateExample.printText();
+        methodCreateExample.printText();
+
+        printFromMain("Call from main method!"); // Вызов метода текущего класса
+
+        methodCreateExample.exampleMethod("sd", 23, "str", 'c'); // Вызов метода с параметрами разных типов
+
+        //Перегрузка методов
+        Calculate calculate = new Calculate();
+        calculate.sum(2, 5); //Пример возможности перегрузки методов
 
 
         //Scanner example
-//        Scanner scanner = new Scanner(System.in);
-//        System.out.println("Enter some text:");
-//        String next = scanner.next();
-//        System.out.println("Inner text: " + next);
+        Scanner scanner = new Scanner(System.in); //Создаем экземпляр класса для использования методов класса
+        System.out.println("Enter some text:");
+        String next = scanner.next();
+        System.out.println("Inner text: " + next);
 
-//        String line = scanner.nextLine();
-//        System.out.println("Full inner text: " + line);
+        String line = scanner.nextLine();
+        System.out.println("Full inner text: " + line);
 
-//        double doubleVal = scanner.nextDouble();
-//        System.out.println("doubleVal: " + doubleVal);
+        double doubleVal = scanner.nextDouble();
+        System.out.println("doubleVal: " + doubleVal);
 
-        int min = Math.min(10, 5);
+
+        //Math класс
+        int min = Math.min(10, 5); //У данного класса все методы статические, потому вызываеются без создания экземпляра класса
         System.out.println(min);
 
         double sqrt = Math.sqrt(9);
@@ -50,8 +50,9 @@ public class Main {
         System.out.println((int) (ran * 100));
 
 
-        Random random = new Random();
-        int users = 20; // = scanner.nextInt();
+        //Random класс
+        Random random = new Random(); //Создаем экземпляр класса для вызова методов данного класса
+        int users = 20; // = scanner.nextInt(); //Подсказка к ДЗ
         int intRandom = random.nextInt(users) + 1;
         System.out.println(intRandom);
 
@@ -70,13 +71,17 @@ public class Main {
         user3.name = "Alex";
         user3.surname = "Bobov";
 
-        System.out.println(10 == 10);
-        System.out.println(user1 == user2);
+        System.out.println(10 == 10); //Пример сравнения примитивов. Как правило == применяется только для примитивов
+        System.out.println(user1 == user2);// Тут идет сравнение двух ссылок объектов, а не их параметров
         System.out.println(user2 == user22);
 
-        System.out.println(user1.equals(user3));
+        System.out.println(user1.equals(user3)); //Тут выполняется именно сравнение объектов по их характеристикам.
     }
 
+    /**
+     * @param text Входящий параметр типа String
+     *             Данный метод ничего не возвращает
+     */
     private static void printFromMain(String text) {
         System.out.println(text);
     }

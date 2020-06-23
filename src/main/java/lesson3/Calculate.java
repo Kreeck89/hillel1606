@@ -21,6 +21,11 @@ public class Calculate {
 
     //перегрузка методов
 
+    /**
+     * @param a Первый входящий параметр типа int
+     * @param b Второй входящий параметр типа int
+     *          Пример применения перегрузки методов
+     */
     public void sum(int a, int b) {
         System.out.println(a + b);
     }
