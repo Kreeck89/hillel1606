@@ -9,6 +9,9 @@ import java.nio.file.Paths;
 import java.util.Scanner;
 
 public class Start {
+    private static final String PATH_TO_FILE = "src/main/resources/files/1/2/5/file.txt";
+    private static final boolean IS_APPEND = false;
+
     public static void main(String[] args) throws IOException {
 //        String str = "Lesson";
 //        System.out.println(str);
@@ -62,13 +65,13 @@ public class Start {
     }
 
     private static void write() throws IOException {
-        String path = "src/main/resources/files/1/2/5/file.text";
-        Path pathToFile = Paths.get(path);
+//        String path = "src/main/resources/files/1/2/5/file.text";
+        Path pathToFile = Paths.get(PATH_TO_FILE);
         if (!Files.exists(pathToFile.getParent())) {
             Files.createDirectories(pathToFile.getParent());
         }
 
-        FileWriter fileWriter = new FileWriter(path, false);
+        FileWriter fileWriter = new FileWriter(PATH_TO_FILE, IS_APPEND);
         fileWriter.write("Hello Hillel\tHello Hillel");
         fileWriter.write("\n");
         fileWriter.write("Hello Hillel\n");
@@ -76,13 +79,13 @@ public class Start {
     }
 
     private static boolean read() throws IOException {
-        String path = "src/main/resources/files/1/2/5/file.txt";
-        Path pathToFile = Paths.get(path);
+//        String path = "src/main/resources/files/1/2/5/file.txt";
+        Path pathToFile = Paths.get(PATH_TO_FILE);
         if (!Files.exists(pathToFile.getParent())) {
             return false;
         }
 
-        FileReader fileReader = new FileReader(path);
+        FileReader fileReader = new FileReader(PATH_TO_FILE);
         Scanner scanner = new Scanner(fileReader);
         while (scanner.hasNextLine()) {
             String name = scanner.nextLine();
