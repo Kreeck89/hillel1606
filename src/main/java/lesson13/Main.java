@@ -1,10 +1,9 @@
-package Lesson13;
+package lesson13;
 
 import lesson10.Cat;
 import lesson10.Dog;
 
 import java.util.*;
-import java.util.concurrent.ConcurrentSkipListSet;
 
 public class Main {
     public static void main(String[] args) {
@@ -12,7 +11,7 @@ public class Main {
         //List example
 //        ArrayList arrayList = new ArrayList(100000);
 //        LinkedList linkedList = new LinkedList();
-//
+//1
 //        arrayList.add("element1");
 //        arrayList.add(2);
 //        arrayList.add(3.7);
